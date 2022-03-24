@@ -14,6 +14,12 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.postgresql:postgresql'
+	implementation 'org.projectlombok:lombok'
+	implementation 'javax.xml.bind:jaxb-api'
+	//implementation 'com.sun.xml.bind:jaxb-core'
+	//implementation 'com.sun.xml.bind:jaxb-impl'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
