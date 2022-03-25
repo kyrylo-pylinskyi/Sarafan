@@ -18,8 +18,10 @@ dependencies {
 	implementation 'org.postgresql:postgresql'
 	implementation 'org.projectlombok:lombok'
 	implementation 'javax.xml.bind:jaxb-api'
-	//implementation 'com.sun.xml.bind:jaxb-core'
-	//implementation 'com.sun.xml.bind:jaxb-impl'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.0.RELEASE'
+	implementation 'org.springframework.session:spring-session-jdbc'
+	implementation "org.springframework.boot:spring-boot-starter-thymeleaf"
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
